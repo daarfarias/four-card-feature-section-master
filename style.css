@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap')
+
+* {
+  margin: 0;
+  box-sizing: content-box; 
+}
+
+body {
+  width: 375px;
+  font-family: Poppins;
+  Font size: 15px;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.wrapper {
+  width: 375px;
+  box-shadow: 0 0.7em 1.3em -0.5em hsla(100, 0%,0%, 0.6);
+  
+}
+
+.header-text {
+  width: 295px;
+  line-weight: 30px;
+  line-height: 1.1em;
+  margin-bottom: 80px;
+  padding-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+h1 {
+  font-weight: 200;
+  font-size: 1.7em;
+  color: hsl(229, 6%, 66%);
+  
+ }
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+#description {
+  font-size: 1.1em;
+  text-align: center;
+  color:hsl(229, 6%, 66%);
+  line-height: 1.4em;
+  
+}
+
+.main-box {
+  width: 100%;
+  
+}
+
+.box {
+  width: 310px;
+  height: 225px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-bottom: 20px;
+  box-shadow: 0 0.7em 1.3em -0.5em hsla(100, 0%,0%, 0.6);
+  border-radius: 6px;
+  line-height: 0.1em;
+    
+}
+
+.title-box {
+  margin-top: 30px;
+  margin-left: 25px;
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  
+}
+
+p {
+  width: 80%;
+ margin-left: 25px;
+  color: hsl(229, 6%, 66%);
+  line-height: 1.4em;
+}
+
+.icon {
+  width: 20%;
+  margin-left: 220px;
+  margin-top: 20px;
+}
+
+#supervisor {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+#team-builder{
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+#karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+#calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+
+@media screen and (min-width: 900px){
+
+body {
+  width: 1440px;
+}
+  
+.wrapper {
+    width: 100%;
+  }
+  
+  .header-text {
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+   font-weight: 200;
+  }
+  h2 {
+    font-size: 2.65em;
+  }
+  #description {
+    width: 35%;
+    margin: auto;
+    font-size: 1.1em;
+  }
+  
+  .main-box {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100% 100%;
+    
+     
+   }
+  .grid { 
+   place-self: center;
+    
+  }
+  
+  .title-box {
+    font-size: 1.3em;
+    margin-bottom: 25px;
+  }
+  
+  #supervisor, #calculator {
+    margin-top: 130px;
+  }
+  #team-builder {
+    margin-bottom: 25px;
+  }
+}
+
+.attribution {
+  width: 100%;
+  text-align: left;
+  
+}
