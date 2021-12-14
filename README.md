@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/fourcardfeaturesectionmaster-project-rziEmZUu3)
-- Live Site URL: [Add live site URL here](https://four-card-feature-section-master-nine-phi.vercel.app/)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/fourcardfeaturesectionmaster-project-rziEmZUu3)
+- Live Site URL: [Site](https://four-card-feature-section-master-nine-phi.vercel.app/)
 
 ### Author
 
